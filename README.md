@@ -7,10 +7,59 @@ Dana is a data journalist who is at a point in her career where she has the free
 The propose of this project is to help Dana to create an HTML page that contains Dana's article, the table of data to support her findings, and easy to use filters to fine-tune the results. Also, JavaScript will be used to display the data as a table and provide a way for users to manipulate the data by adding filters. 
 
 ## Result
-Describe to Dana how someone might use the new webpage by walking her through the process of using the search criteria. Use images of your webpage during the filtering process to support your explanation.
+### Process of using the search criteria
 
-![Final Result](./Final_Result.png)
+Web Application Overview: 
+![Result](./Resources/Result.png)
 
+### User can filter data using a single filter
+
+> Date Filter 
+> - Date Filter Format: "MM/DD/YYYY"
+> - For Example: Data filtered by "1/13/2010" (See Image below)
+
+![Date_Filter](./Resources/DateFilter.png)
+
+> City Filter 
+> - City Filter Format: City name (All lower case letters)
+> - For Example: Data filtered by "benton" (See Image below)
+
+![Date_Filter](./Resources/CityFilter.png)
+
+> State Filter 
+> - State Filter Format: State abbrevission (All lower case letters)
+> - For Example: Data filtered by "ar" (See Image below)
+
+![Date_Filter](./Resources/StateFilter.png)
+
+> Country Filter 
+> - Country Filter Format: Country abbrevission (All lower case letters)
+> - For Example: Data filtered by "ca" (See Image below)
+
+![Date_Filter](./Resources/CountryFilter.png)
+
+> Shape Filter 
+> - Shape Filter Format: Shape (All lower case letters)
+> - For Example: Data filtered by "circle" (See Image below)
+
+![Date_Filter](./Resources/ShapeFilter.png)
+
+### User can filter data using multiple filters
+> For Example: Data filtered by Date and State
+> 1. Set Enter Date as "1/13/2010" 
+Data gets filtered by date entered (See Image below)
+
+![Date_Filter](./Resources/DateFilter.png)
+
+> 2. Set Enter a State as "pa"
+Data gets filtered by state entered (See Image below)
+
+![Date&State_Filter](./Resources/Date&StateFilter.png)
+Note: Data gets filtered by Date than State. The order of the filter does not affect the result.
+
+### Clear Filter(s) 
+>1. Clear the filter data
+>2. Enter 
 
 ## Summary
 One of the drawbacks of this new design is that users need to know the exact abbreviation to filter. For Example, Users need to enter the date into the "Enter Date" Filter in a specific format, cannot enter just the year. Also, Users cannot enter c in the "Enter a State" Filter, need to enter ca.
