@@ -12,7 +12,7 @@ The propose of this project is to help Dana to create an HTML page that contains
 Web Application Overview: 
 ![Result](./Resources/Result.png)
 
-### User can filter data using a single filter
+### User can filter data by using a single filter
 
 > Date Filter 
 > - Date Filter Format: "MM/DD/YYYY"
@@ -44,7 +44,7 @@ Web Application Overview:
 
 ![Date_Filter](./Resources/ShapeFilter.png)
 
-### User can filter data using multiple filters
+### User can filter data by using multiple filters
 > For Example: Data filtered by Date and State
 > 1. Set Enter Date as "1/13/2010" 
 Data gets filtered by date entered (See Image below)
